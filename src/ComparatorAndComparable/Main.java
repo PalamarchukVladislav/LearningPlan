@@ -1,13 +1,9 @@
 package ComparatorAndComparable;
 
-import com.sun.prism.paint.Color;
-
 import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Set;
-import java.util.TreeSet;
 
 public class Main {
+
     public static void main(String[] args) {
 
         ArrayList<Car> cars = new ArrayList<>();
