@@ -24,5 +24,14 @@ public class Main {
         int a = calculate.calculate(10,20);
 
         System.out.println(a);
+
+
+        String name = "Vlad";
+
+        Interface i = (s) -> s.length();
+
+        int length = i.showLength(name);
+        System.out.println(length);
+
     }
 }
